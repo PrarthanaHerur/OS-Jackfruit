@@ -1,0 +1,77 @@
+# 🍈 OS Jackfruit – Container Runtime System
+
+## 📌 Overview
+**OS Jackfruit** is a lightweight container runtime system implemented in **C**, designed to demonstrate core **Operating System concepts** such as process isolation, namespace usage, and kernel–user space interaction.
+
+This project simulates the fundamental working principles of modern container engines by creating isolated execution environments using low-level Linux features. It provides hands-on experience with system-level programming and OS internals.
+
+---
+
+## 🎯 Objectives
+- Understand Linux process creation and lifecycle
+- Implement process isolation techniques
+- Explore kernel–user space communication
+- Learn Linux kernel module development
+- Analyze CPU, memory, and I/O behavior
+- Simulate a container runtime environment
+
+---
+
+## ⚙️ Features
+- 🧩 Process isolation using Linux mechanisms  
+- 📦 Lightweight container-like execution  
+- 🧠 Kernel module for monitoring processes  
+- 📊 Resource usage tracking (CPU, memory, I/O)  
+- 💻 Command-line interface for runtime control  
+- 🧪 Stress testing using custom workload programs  
+
+---
+
+## 🛠️ Technologies Used
+- **C Programming Language**
+- **Linux System Calls**
+- **Linux Kernel Modules (LKM)**
+- **GCC Compiler**
+- **Makefile**
+- **Shell Scripting**
+
+---
+
+## 📂 Project Structure
+OS-Jackfruit/
+│
+├── boilerplate/
+│   ├── engine.c              # User-space container runtime engine
+│   ├── monitor.c             # Kernel module for monitoring processes
+│   ├── monitor_ioctl.h       # IOCTL interface for communication
+│   ├── Makefile              # Build configuration file
+│   ├── cpu_hog.c             # CPU-intensive workload generator
+│   ├── memory_hog.c          # Memory stress testing program
+│   ├── io_pulse.c            # I/O workload simulation
+│   └── environment-check.sh  # Script to verify environment setup
+│
+├── docs/
+│   └── report.md             # Detailed project report
+│
+├── project-guide.md          # Assignment description and guidelines
+├── README.md                 # Project documentation
+└── .gitignore                # Ignored files for clean repository
+---
+
+## 🚀 Setup & Installation
+
+### 1️⃣ Prerequisites
+- Linux OS (Ubuntu recommended)
+- GCC Compiler
+- Kernel headers installed
+- Root privileges
+
+Install dependencies:
+
+```bash
+sudo apt update
+sudo apt install build-essential linux-headers-$(uname -r)
+
+
+
+
