@@ -116,50 +116,50 @@ make clean
 
 ## 📸 Screenshots
 
-### 🔧 Build Process
-![Build](assets/build.png)
+### 🔧 Multicontainer supervision
+![Multicontainer](assets/multicontainer1.png)
+![Multicontainer](assets/multicontainer2.png)
 
 ---
 
-### ▶️ Starting Containers
-![Start](assets/start.png)
+### ▶️ Metadata Tracking
+![Metadata](assets/metadata.png)
 
 ---
 
-### 📋 Container List
-![PS](assets/ps.png)
+### 📋 Bounded Buffer Logging
+![boundedbuffer](assets/boundedbuffer.png)
 
 ---
 
-### 🧠 Supervisor
-![Supervisor](assets/supervisor.png)
+### CLI and IPC
+![CLI](assets/cli.png)
+![IPC](assets/ipc.png)
 
 ---
 
-### 📜 Logs
-![Logs](assets/logs.png)
+### Soft-limit warning
+![Softlimit](assets/softlimit.png)
 
 ---
 
-### ⛔ Stop Container
-![Stop](assets/stop.png)
+### Hard-limit enforcement
+![hardlimit](assets/hardlimit1.png)
+![hardlimit](assets/hardlimit2.png)
 
 ---
 
-### 📊 Monitoring
-![Monitor1](assets/monitor1.png)
+### Scheduling Experiment
+![scheduling](assets/scheduling.png)
 
-![Monitor2](assets/monitor2.png)
-
----
-
-### 💾 Memory Test
-![Memtest](assets/memtest.png)
 
 ---
 
-### ✅ Final State
-![Final](assets/final.png)
+### Clean Teardown
+![cleanteardown](assets/cleanteardown.png)
+
+---
+
 
 👩‍💻 Author
 
