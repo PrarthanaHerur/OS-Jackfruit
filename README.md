@@ -37,26 +37,7 @@ This project simulates the fundamental working principles of modern container en
 
 ---
 
-## 📂 Project Structure
-OS-Jackfruit/
-│
-├── boilerplate/
-│   ├── engine.c              # User-space container runtime engine
-│   ├── monitor.c             # Kernel module for monitoring processes
-│   ├── monitor_ioctl.h       # IOCTL interface for communication
-│   ├── Makefile              # Build configuration file
-│   ├── cpu_hog.c             # CPU-intensive workload generator
-│   ├── memory_hog.c          # Memory stress testing program
-│   ├── io_pulse.c            # I/O workload simulation
-│   └── environment-check.sh  # Script to verify environment setup
-│
-├── docs/
-│   └── report.md             # Detailed project report
-│
-├── project-guide.md          # Assignment description and guidelines
-├── README.md                 # Project documentation
-└── .gitignore                # Ignored files for clean repository
----
+
 
 ## 🚀 Setup & Installation
 
@@ -71,7 +52,9 @@ Install dependencies:
 ```bash
 sudo apt update
 sudo apt install build-essential linux-headers-$(uname -r)
-
+2️⃣ Build the Project
+cd boilerplate
+make
 
 
 
